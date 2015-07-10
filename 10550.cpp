@@ -6,7 +6,11 @@ int main()
     while (1)
     {
         scanf("%d %d %d %d",&a,&b,&c,&d);
+<<<<<<< HEAD
         if ( a == 0 && b == 0 && c == 0 && d == 0 )
+=======
+        if (a == 0 && b == 0 && c == 0 && d == 0)
+>>>>>>> bde11a53e1786c1ac1ba008b66106ad5ca279d35
             break;
         degree = 1080;
         if(a<b)

@@ -1,4 +1,8 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1434187943 source:e:\c programming\volume 105\10523 - very easy !!!\10523\main.cpp
+=======
+1434184343 source:e:\c programming\volume 105\10523 - very easy !!!\10523\main.cpp
+>>>>>>> bde11a53e1786c1ac1ba008b66106ad5ca279d35
 	<bits/stdc++.h>
 

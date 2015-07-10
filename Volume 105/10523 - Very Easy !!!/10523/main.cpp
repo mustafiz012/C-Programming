@@ -12,6 +12,7 @@ int main()
         printf("%d\n", powrT2);
     }
 }
+<<<<<<< HEAD
 
 
 /*
@@ -40,3 +41,5 @@ public class Very_easy_10523 {
 
 
 */
+=======
+>>>>>>> bde11a53e1786c1ac1ba008b66106ad5ca279d35

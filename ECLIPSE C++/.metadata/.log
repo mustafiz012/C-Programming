@@ -184,6 +184,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2015-06-20 20:04:35.275
 !MESSAGE Indexed 'TestManually' (1 sources, 80 headers) in 4.97 sec: 7,433 declarations; 13,299 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+<<<<<<< HEAD
 !SESSION 2015-06-29 14:17:25.628 -----------------------------------------------
 eclipse.buildId=4.4.2.M20150204-1700
 java.version=1.7.0_03
@@ -223,3 +224,5 @@ java.io.IOException: Cannot run program "g++": Launching failed
 	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+=======
+>>>>>>> bde11a53e1786c1ac1ba008b66106ad5ca279d35

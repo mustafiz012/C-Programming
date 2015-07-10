@@ -1,4 +1,8 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1435077789 source:e:\c programming\volume 122\12279 - emoogle balance\12279\main.cpp
+=======
+1435074034 source:e:\c programming\volume 122\12279 - emoogle balance\12279\main.cpp
+>>>>>>> bde11a53e1786c1ac1ba008b66106ad5ca279d35
 	<bits/stdc++.h>
 

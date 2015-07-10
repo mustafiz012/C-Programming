@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : TestManually.cpp
+// Author      : Musta
+// Version     :
+// Copyright   : MustaConnection
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	for (int var = 0; var < 10; ++var) {
+		printf("This is a test session:\n", var);
+	}
+	return 0;
+}
