@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <string.h>
+intmain (){inttestCase;scanf("%d", &testCase);while( testCase-- ){chara [10];scanf("%s", a);if(strlen(a) == 5 )printf("3\n");else{intcnt = 0;if( a [0] =='o') cnt++;if( a [1] =='n') cnt++;if( a [2] =='e') cnt++;if( cnt >= 2 )printf("1\n");elseprintf("2\n");}}return0;}
