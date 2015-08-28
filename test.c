@@ -2,10 +2,10 @@
 #include<string.h>
 int main()
 {
-    int c;
-    while(scanf("%d", &c) != EOF){
+    char c;
+    while(scanf("%c", &c) != EOF){
             getchar();
-            printf("%c\n", c);
+            printf("%d\n", c);
     }
 
 }

@@ -1,24 +1,45 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+//#include <string>
+#include <cstring>
 using namespace std;
 
 int main()
 {
-    int dec = 0, counter;
-    int bin3[100];
-    cin>>counter;
-    for(int j=0; j<counter; j++)
+    int input,x;
+    cin>>x;
+    int part1=1,part2=1,value=0,total=1;
+    while(x--)
     {
-        cin>>bin3[j];
-    }
-    int i=0;
-    while(counter != 0)
-    {
-        if(bin3[i] == 1)
+        cin>>input;
+        if(input<0)
         {
-            dec += pow(2,counter-1);
+            if(value==0)
+            {
+                part1=input;
+                value++;
+            }
+            else
+            {
+                part2=input;
+                total=total*part1*part2;
+                part1=1;
+                part2=1;
+                value=0;
+            }
         }
-        i++;
-        counter--;
+        else if(input>0)
+            total=total*input;
+        else
+        {
+            total =0;
+            break ;
+        }
+
     }
-    printf("\n%d ", dec);
+
+    cout<<" total multiplication is "<<total <<endl;
+
+    return 0;
 }

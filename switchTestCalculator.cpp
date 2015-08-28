@@ -1,4 +1,4 @@
-﻿#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 #include<iostream>
 #include<cstdio>
 #include<cmath>
@@ -80,11 +80,11 @@ int main()
 
 	case '%':
 	{
-		int m6, n6, remainder;
+		unsigned long int m6, n6, remainder;
 		printf("\nRespectively dividend, divisor:\n");
 		cin >> m6 >> n6;
-		remainder = m6 / n6;
-		printf("\nMode value is: %d", remainder);
+		remainder = m6 % n6;
+		printf("\nMode value is: %lu", remainder);
 	}
 	break;
 	case '`':
