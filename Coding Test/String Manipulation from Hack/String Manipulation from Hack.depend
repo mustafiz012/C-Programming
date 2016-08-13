@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469897790 source:f:\c programming\coding test\string manipulation from hack\main.cpp
+	<iostream>
+	<cstdio>
+	<bits/stdc++.h>
+

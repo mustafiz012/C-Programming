@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1466359699 source:f:\c programming\samu\main.cpp
+	<iostream>
+	<cstdio>
+

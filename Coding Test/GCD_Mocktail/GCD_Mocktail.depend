@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469615230 source:f:\c programming\coding test\gcd_mocktail\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<cstdio>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463908642 source:f:\c programming\filereading\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+

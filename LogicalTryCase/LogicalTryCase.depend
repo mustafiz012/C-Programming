@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1464284398 source:f:\c programming\logicaltrycase\main.cpp
+	<iostream>
+	<cstdio>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469731263 source:f:\c programming\coding test\commonarrayprobs\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<cstdio>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469688101 source:f:\c programming\coding test\coin sequnce\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+
