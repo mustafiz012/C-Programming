@@ -9,13 +9,12 @@ int main()
     {
         scanf("%lld", &n);
         sum = 0;
-        if( n == 0 )
+        if( n == 0)
             break;
         while(n != 0)
         {
             sum += (n%10);
-            tempN = n/10;
-            n = tempN;
+            n = n/10;
             if(n == 0)
             {
                 if(sum >= 10)

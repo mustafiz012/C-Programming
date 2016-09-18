@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1471113199 source:f:\c programming\learningvector\veryfirstone\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+

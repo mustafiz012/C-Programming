@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1471327703 source:f:\c programming\studyongraph\graphstoring\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+
+1472065965 source:f:\c programming\studyongraph\graphstoring\vectorimple.cpp
+	<cstdio>
+	<vector>
+

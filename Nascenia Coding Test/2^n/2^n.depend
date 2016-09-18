@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1471380292 source:f:\c programming\2^n\main.cpp
+	<iostream>
+	<cstdio>
+
