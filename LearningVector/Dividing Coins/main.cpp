@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 #include <cstdio>
 #include <cstring>
@@ -64,11 +65,7 @@ int main()
 }
 
 
-
-
-
-
-/*
+*/
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
@@ -82,7 +79,7 @@ int minFinder(int i, int j) {
 
 int main() {
 	int T, N, input[101], sum1, sum2;
-	freopen("input.txt", "r", stdin);
+	//freopen("input.txt", "r", stdin);
 	cin >> T;
 	while (T--) {
 		cin >> N; sum1 = 0; sum2 = 0;
@@ -123,5 +120,3 @@ int main() {
 	}
 	return 0;
 }
-
-*/

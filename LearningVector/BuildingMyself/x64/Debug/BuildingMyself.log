@@ -1,0 +1,4 @@
+﻿  Test.cpp
+f:\c programming\learningvector\buildingmyself\test.cpp(14): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string *'
+  BuildingMyself.vcxproj -> F:\C Programming\LearningVector\BuildingMyself\x64\Debug\BuildingMyself.exe
+  BuildingMyself.vcxproj -> F:\C Programming\LearningVector\BuildingMyself\x64\Debug\BuildingMyself.pdb (Partial PDB)
