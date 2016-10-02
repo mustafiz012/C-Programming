@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1475434225 source:f:\c programming\volume 114\11461 - square numbers\test\main.cpp
+	<stdio.h>
+	<iostream>
+
