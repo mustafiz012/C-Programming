@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1475434225 source:f:\c programming\volume 114\11461 - square numbers\test\main.cpp
+1476208295 source:f:\c programming\volume 114\11461 - square numbers\test\main.cpp
+	<cmath>
+	<cstdio>
 	<stdio.h>
+	<vector>
 	<iostream>
+	<algorithm>
 

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/*int main() {
+int main() {
 	printf("I'm just getting ready!\n");
 	vector<int> vec;
 	for (int i = 0; i < 5; i++) {
@@ -41,4 +41,4 @@ using namespace std;
 
 	return 0;
 
-}*/
+}

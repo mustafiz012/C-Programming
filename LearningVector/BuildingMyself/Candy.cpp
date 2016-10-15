@@ -21,20 +21,12 @@ void makingZero(int i, int j) {
 void traversing() {
 	for (int i = 0; i < V; i++) {
 		for (int j = 0; j < H; j++) {
-			if (grid[i][j] == '>')
+			if (grid[i][j] == 'o')
 			{
-				counter++;
-				indexCounter = j;
-			}
-			else if (counter == 1 && grid[i][j] == 'o' && j == indexCounter + 1) {
-				indexCounter = j;
-				counter++;
-			}
-			else if (counter == 2 && grid[i][j] == '<' && j == indexCounter + 1) {
-				Ans++;
-				counter = 0;
-				makingZero(i, j - 2);
-				indexCounter = 0;
+				if (j - 1 >= 0 && j + 1 < H && grid[i][j - 1] == '>' && grid[i][j + 1] == '<')
+					Ans++;
+				else if (i - 1 >= 0 && i + 1 < V && grid[i - 1][j] == 'v' && grid[i + 1][j] == '^')
+					Ans++;
 			}
 		}
 	}
@@ -72,8 +64,8 @@ void solveCase() {
 	Ans = 0;
 	counter = 0;
 	traversing();
-	transforming();
-	traversing2();
+	//transforming();
+	//traversing2();
 
 }
 
