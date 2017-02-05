@@ -20,7 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Password.cpp">
+    <ClCompile Include="Progress Pi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
