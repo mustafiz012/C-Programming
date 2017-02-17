@@ -1,0 +1,6 @@
+Position of player 1 is 100.
+Position of player 2 is 14.
+Position of player 3 is 100.
+Position of player 4 is 9.
+Position of player 1 is 99.
+Position of player 2 is 5.
