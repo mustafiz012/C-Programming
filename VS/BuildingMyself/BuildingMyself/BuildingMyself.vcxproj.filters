@@ -18,9 +18,12 @@
     <Text Include="input.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="output.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Permutation.cpp">
+    <ClCompile Include="..\..\..\Goin On\VS\SoftTechProblems\SoftTechProblems\War of the Corporations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

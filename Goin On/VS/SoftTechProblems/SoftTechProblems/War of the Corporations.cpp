@@ -31,9 +31,10 @@ void matching(int index){
 }
 
 int main(){
-	freopen("input.txt", "r", stdin);
+	//freopen("input.txt", "r", stdin);
 	cin >> T;
-	gets(subLine);
+	//gets(subLine);
+	getchar();
 	while (T--){
 		Ans = 0;
 		scanf("%s %s", line, subLine);
@@ -42,9 +43,9 @@ int main(){
 				if (line[i] == subLine[j])
 				{
 					//printf("%d %d :: %c %c\n", i, j, line[i], subLine[j]);
-					for (int ii = 0; line[ii] != NULL; ii++)
+					/*for (int ii = 0; line[ii] != NULL; ii++)
 						printf("%c", line[ii]);
-					cout << endl;
+					cout << endl;*/
 					matching(i);
 					break;
 				}
